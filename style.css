@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+
+.all{
+    width: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+    
+}
+
+.heading{
+    width: auto;
+    height: auto;
+    border-bottom: 2px solid  rgb(1, 69, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+   
+}
+
+#head{
+    width: auto;
+    height: auto;
+    
+    font-size: 2rem;
+    margin: 1em 1em 0.5em 1em;
+    color: rgb(1, 69, 255);
+     
+}
+
+#res{
+    width: auto;
+    height: auto;
+    /* border: 2px solid black; */
+    font-size: 2rem;
+    margin: 1rem 1rem 1rem 1rem;
+    margin: 1em 1em 0em 1em;
+    color: rgb(1, 69, 255);
+}
+
+.switch{
+    width: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10rem 1rem 1rem 1rem;
+    margin: 15em 1em 1em 1em;
+
+}
+
+
+
+button{
+    width: auto;
+    height: auto;
+    font-size: 1.5rem;
+    margin: auto;
+    border-radius: 1em 1em 1em 1em;
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(1, 69, 255);
+    cursor: pointer;
+    outline: none;
+    border-width: 2px;
+    border-color: blue;
+  
+}
+
+
+button:hover{
+
+    background-color: rgb(255, 255, 255);
+   
+   color: rgb(1, 69, 255);
+
+}
+
+button:active{
+    color: rgb(255, 255, 255);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: rgb(1, 69, 255);
+}
